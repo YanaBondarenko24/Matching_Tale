@@ -1,4 +1,23 @@
 .header {
+ 
+}
+
+.header-container {
+  display: flex;
+}
+
+.container {}
+
+.header-nav {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {}
+
+
+/* .header {
   padding: 20px 0;
 }
 
@@ -85,3 +104,4 @@
 [data-visible='close'] {
   display: none;
 }
+ */
