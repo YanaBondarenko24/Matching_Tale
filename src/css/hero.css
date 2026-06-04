@@ -1,0 +1,22 @@
+.hero {}
+
+.hero-container {
+background-color: #A11CB6;
+}
+.container{
+   
+}
+
+.hero-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text {}
+
+.hero-link {}
+
+.hero-icon {}

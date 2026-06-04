@@ -2,10 +2,15 @@
  --font-family: "Inter", sans-serif;
  --second-family: "Montserrat", sans-serif;
  --third-family: "Alexandria", sans-serif;
+ --color: #fff;
  --color-background-1: #913faf;
  --color-backgraund: #93b1c1;
  --background: linear-gradient(180deg, #770e9d 0%, rgba(187, 19, 123, 0.97) 34.13%, rgba(32, 89, 189, 0.98) 62.02%, #bf31f2 100%);
 
+}
+
+.hide{
+  display: none;
 }
 
 html{
@@ -16,20 +21,11 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.5;
   letter-spacing: 0;
   width: 100%;
   overflow-x: hidden;
   background-color: var(--background);
+  color: var(--color);
+ 
 
 }
-
-
-
-/* main {
-  flex-grow: 1;
-}
-main:has(.back-link) {
-  text-align: center;
-}
- */
