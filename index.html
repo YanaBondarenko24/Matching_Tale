@@ -19,7 +19,7 @@
 
     <!-- Custom CSS -->
     <script type="module" crossorigin src="/STP-12935/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STP-12935/assets/styles-HAEn5bJb.css">
+    <link rel="stylesheet" crossorigin href="/STP-12935/assets/styles-DQqFkESk.css">
   </head>
   <body>
     <header class="header">
@@ -34,19 +34,19 @@
  <nav class="header-nav ">
   <ul class="header-list">
     <li class="header-item">
-      <a class="header-link" href="/about">About</a>
+      <a class="header-link" href="#about">About</a>
     </li>
     <li class="header-item">
-      <a class="header-link" href="/how-to-play">How to play</a>
+      <a class="header-link" href="#how-to-play">How to play</a>
     </li>
     <li class="header-item">
-      <a class="header-link" href="/gallery">Gallery</a>
+      <a class="header-link" href="#gallery">Gallery</a>
     </li>
     <li class="header-item">
-      <a class="header-link" href="/reviews">Reviews</a>
+      <a class="header-link" href="#reviews">Reviews</a>
     </li>
     <li class="header-item">
-      <a class="header-link" href="contact">Contact</a>
+      <a class="header-link" href="#contact">Contact</a>
     </li>
   </ul>
  </nav>
@@ -62,17 +62,23 @@
       <!-- Loads the specified .html file -->
       <section class="hero">
     <div class="hero-container container">
-        <h1 class="hero-title">Match Magic.
-        Reveal Mysteries</h1>
-        <p class="hero-text">Relaxing puzzle adventures
-        in a world of fantasy</p>
-        <a class="hero-link" href="">
-            <svg class="hero-icon">
-                <use></use>
-            </svg>
-        </a>
+        <img class="hero-img" srcset="../img/hero/hero-mob.jpg 1x, ../img/hero/hero-mob@2x.jpg 2x" src="../img//hero/hero-mob.jpg" alt="Hero image" width="375px" height="161px">
+        <div class="hero-wrapper">
+            <h1 class="hero-title">Match Magic.
+            Reveal Mysteries</h1>
+            <p class="hero-text">Relaxing puzzle adventures
+            in a world of fantasy</p>
+            <a href="https://play.google.com/store/apps/details?id=com.messworks.matching.tale.mystery.blast.game&hl=en&gl=us" target="_blank" rel="noopener noreferrer">
+                <picture>
+                    <source media="(max-width: 375px)" srcset="../img/hero/google-mob.png 1x, ../img/hero/google-mob@2x.png 2x" >
+                    <source media="(max-width: 1440px)" srcset="../img/hero/google.png 1x, ../img/hero/google@2x.png 2x">
+                    <img class="google-img" src="../img/hero/google.png" alt="Get it on Google Play" width="166" height="58">
+                </picture>
+            </a>
+        </div>
     </div>
 </section>
+
       
       
       
