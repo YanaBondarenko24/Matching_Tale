@@ -3,10 +3,11 @@
  --second-family: "Montserrat", sans-serif;
  --third-family: "Alexandria", sans-serif;
  --color: #fff;
- --color-background-1: #913faf;
  --color-backgraund: #93b1c1;
+ --color-background-1: #913faf;
+ --color-backgraund-2: #EBE0FF;
+ --color-backgraund-3: #B334EE;
  --background: linear-gradient(180deg, #770e9d 0%, rgba(187, 19, 123, 0.97) 34.13%, rgba(32, 89, 189, 0.98) 62.02%, #bf31f2 100%);
-
 }
 
 .hide{
