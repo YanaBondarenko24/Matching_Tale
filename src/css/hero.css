@@ -36,7 +36,7 @@
 
 @media only screen and (min-width: 1440px) {
     .hero{
-        background-image: url(../img/hero/hero.jpg);
+        background-image: url(/img/hero/hero.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -70,6 +70,6 @@
         
         @media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
             .hero {
-                background-image: url(../img/hero/hero@2x.jpg);
+                background-image: url(/img/hero/hero@2x.jpg);
             }
         }
