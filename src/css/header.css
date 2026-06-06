@@ -1,6 +1,9 @@
 .header{
+  position: sticky;
+  top:0;
+  z-index: 100;
   padding: 0 20px;
-  background-color: #5441a3;
+  background-color: var(--color-backgraund);
 }
 .header-container {
   display: flex;

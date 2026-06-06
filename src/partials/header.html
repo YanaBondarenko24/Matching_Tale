@@ -1,12 +1,13 @@
 <header class="header">
   <div class="header-container container">
     <picture>
-      <source srcset="/img/logo-mob.png 1x, 
+      <source media="(min-width: 1440px)" 
+      srcset="/img/logo-desk.png 1x, 
+      /img/logo-desk@2x.png 2x">
+
+      <img src="/img/logo-mob.png" 
+      srcset="/img/logo-mob.png 1x,
       /img/logo-mob@2x.png 2x"
-      media="(max-width: 375px)">
-      <img src="/img/logo-desk.png" 
-      srcset="/img/logo-desk.png 1x,
-      /img/logo-desk@2x.png 2x"
       alt="Logo">
     </picture>
  <nav class="header-nav ">
