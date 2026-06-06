@@ -4,7 +4,6 @@ background-color: var(--color-backgraund-1);
 
 .about-container {
     position: relative;
-    padding: 20px 15px;
     text-align: center;
 }
 .icon{
@@ -20,6 +19,7 @@ margin-bottom: 15px;
 }
 
 .about-text {
+   width: 335px;
     font-size: 20px;
     margin-bottom: 18px;
 }
