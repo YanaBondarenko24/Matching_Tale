@@ -1,0 +1,53 @@
+.contact{
+background: #913faf;
+max-width: 375px;
+height: 98px;
+}
+
+.contact-container{
+max-width: 260px;
+height: 71px;
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.contact-question{
+  font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #fff;
+}
+
+.contact-email{
+  font-family: "Inter", sans-serif;
+font-weight: 300;
+font-size: 16px;
+color: #fff;
+text-align: center;
+}
+
+@media screen and (min-width: 1440px){
+  .contact{
+max-width: 1440px;
+height: 233px;
+  }
+
+  .contact-container{
+    max-width: 1058px;
+height: 153px;
+align-items: center;
+gap: 37px;
+  }
+
+  .contact-question{
+   font-size: 48px;
+  }
+
+  .contact-email{
+    font-size: 48px;
+    padding-top: 37px;
+  }
+}
