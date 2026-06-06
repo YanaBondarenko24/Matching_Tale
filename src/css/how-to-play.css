@@ -81,7 +81,13 @@
 }
 
 @media only screen and (min-width: 1440px) {
-.play-img{
+.play-container{
+    flex-direction: row;
+}
+    .play-img{
         border-radius: 18px;
     }
+        .swiper-play{
+            overflow: visible;
+        }
 }

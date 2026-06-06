@@ -8,7 +8,7 @@ const swiper = new Swiper('.swiper-play', {
   modules: [Pagination],
   slidesPerView: 1,
   spaceBetween: 30,
- pagination: {
+  pagination: {
     el: ".swiper-play-pagination",
     clickable: true,
     type: 'bullets',
