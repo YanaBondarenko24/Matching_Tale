@@ -41,7 +41,11 @@ main {
   text-decoration: none;
   font-size: 20px;
 }
-
+.main-page-btn:hover,
+.main-page-btn:focus{
+   opacity: 0.8;
+  color: #8c1090;
+}
 .policy-title {
   margin-bottom: 20px;
   text-align: center;
