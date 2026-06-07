@@ -1,12 +1,28 @@
-/* const openBtnEl = document.querySelector('[data-action="open"]');
-const closeBtnEl = document.querySelector('[data-action="close"]');
-const burgerMenuEl = document.querySelector('[data-visible]');
+const openBtn = document.querySelector('[data-action="open"]');
+const closeBtn = document.querySelector('[data-action="close"]');
+const burgerMenu = document.querySelector('[data-visible]');
+const body = document.querySelector('[data-menu="close"]')
+const list = document.querySelector('[data-list]');
 
-openBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'open';
-});
+list.addEventListener("click", handleClick);
+openBtn.addEventListener("click", openMenu);
+closeBtn.addEventListener("click", closeMenu);
 
-closeBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'close';
-});
- */
+function handleClick(e) {
+  if (e.target.closest('[data-item]')) {
+    closeMenu();
+  }
+  
+}
+
+function openMenu (e){
+  burgerMenu.dataset.visible = 'open';
+  body.dataset.menu = 'open';
+};
+
+function closeMenu(e){
+  burgerMenu.dataset.visible = 'close';
+  body.dataset.menu = 'close';
+};
+
+

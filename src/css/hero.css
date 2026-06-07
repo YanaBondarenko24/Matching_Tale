@@ -1,7 +1,13 @@
 .hero {
     background-color: #A11CB6;
 }
+.hero-container {
+padding: 0 0 23px;
+}
 
+.hero-img{
+    margin-bottom: 8px;
+}
 .hero-wrapper {
     display: flex;
     flex-direction: column;
@@ -42,6 +48,10 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .hero-container{
+        padding: 95px 0px 50px 100px;
+    
+    }
     .hero-wrapper{
         width: 602px;
         align-items: start;
@@ -49,10 +59,6 @@
     }
     .hero-img{
         display: none;
-    }
-    .hero-container{
-        padding: 95px 0px 50px 100px;
-        height: 617px;       
     }
     .hero-title{
         font-size: 72px;
