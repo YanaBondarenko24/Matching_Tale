@@ -29,6 +29,12 @@
   text-decoration: none;
 }
 
+.footer-link:hover,
+.footer-link:focus {
+  opacity: 0.8;
+  color: #8c1090;
+}
+
 @media screen and (min-width: 1440px) {
    .footer {
     max-width: 1440px;
