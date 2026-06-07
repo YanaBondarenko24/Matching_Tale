@@ -20,16 +20,14 @@ html{
 }
 
 body {
-  background-color: var(--background);
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0;
   width: 100%;
   overflow-x: hidden;
-  background-color: var(--background);
   color: var(--color);
-
+  
 }
 body[data-menu="open"]{
   overflow: hidden;
@@ -38,4 +36,9 @@ body[data-menu="open"] .mobile-menu {
   transform: translateX(0) scale(1);
   opacity: 1;
   pointer-events: auto;
+}
+main{
+  background:
+  linear-gradient(180deg, #770e9d 0%, rgba(187, 19, 123, 0.97) 34.13%, rgba(32, 89, 189, 0.98) 62.02%, #bf31f2 100%);
+
 }
