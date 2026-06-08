@@ -8,7 +8,6 @@
  
 }
 
-
 .play-title {
     font-size: 36px;
 }
@@ -80,7 +79,7 @@
 }
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
     border: 1px solid #fff;
-    background-color: #913FAF;
+    background-color: transparent;
 }
 
 @media only screen and (min-width: 1440px) {
