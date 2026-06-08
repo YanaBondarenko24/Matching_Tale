@@ -24,7 +24,7 @@
     <script type="module" crossorigin src="/STP-12935/index.js"></script>
     <link rel="modulepreload" crossorigin href="/STP-12935/assets/vendor-CLkGTgp1.js">
     <link rel="stylesheet" crossorigin href="/STP-12935/assets/vendor-CCK7RXJZ.css">
-    <link rel="stylesheet" crossorigin href="/STP-12935/assets/styles-Dgggd45T.css">
+    <link rel="stylesheet" crossorigin href="/STP-12935/assets/styles-CCUFjLDR.css">
   </head>
   <body data-menu="close">
     <header class="header">
@@ -113,7 +113,7 @@
             <use href="/STP-12935/assets/sprite-DkFEqxv7.svg#icon-diamond"></use>
         </svg>
             <h2 class="play-title">How to play</h2>
-            <div class="swiper-play">
+            <div class="swiper-play" id="swiper-play">
                 <ul class=" swiper-wrapper swiper-play-wrapper">
                     <li class="swiper-slide swiper-play-slide">
                 <span class="play-number">1</span>
@@ -166,44 +166,60 @@
                         </div>
                     </li>
                 </ul>
-                <div class="swiper-play-pagination"></div>
+                <div class="swiper-play-pagination" id="swiper-play-pagination"></div>
             </div>
     </div>
 </section>
       <section class="benefits">
     <div class="benefits-container container">
-        <svg>
-            <use></use>
-        </svg>
-            <h2 class="benefits-title"></h2>
+    <svg class="icon" width="13" height="9">
+        <use href="/STP-12935/assets/sprite-DkFEqxv7.svg#icon-diamond"></use>
+    </svg>
+            <h2 class="benefits-title">Advantages</h2>
             <ul class="benefits-list">
                 <li class="benefits-item">
-                    <img class="benefits-img" src="" alt="Easy to Learn" width="80" height="80">
-                    <div class="benefits-text-wrapper">
+            <picture class="benefit-image-wrapper">
+            <source media="(min-width: 1440px)" srcset="data:image/jpeg;base64,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 1x, /STP-12935/assets/benefit_1-mob@2x-Cp7uBjd6.jpg 2x" >
+            <img class="benefits-img" src="/STP-12935/assets/benefit_1-ii8u6kVU.jpg" 
+            srcset="/STP-12935/assets/benefit_1-ii8u6kVU.jpg 1x, /STP-12935/assets/benefit_1@2x-cgFRk_-f.jpg 2x" alt="Easy to Learn"  width="80" height="80">
+        </picture>
+                    <div class="benefits-text-wrapper text-wrapper">
                         <p class="benefits-text">Easy to Learn</p>
                     </div>
                 </li>
                 <li class="benefits-item">
-                    <img class="benefits-img" src="" alt="Visually Relaxing" width="80" height="80" >
-                    <div class="benefits-text-wrapper">
+            <picture class="benefit-image-wrapper">
+                <source media="(min-width: 1440px)" srcset="/STP-12935/assets/benefit_2-mob-CDZbZfXZ.jpg 1x, /STP-12935/assets/benefit_2-mob@2x-DQuVZMaI.jpg 2x">
+                <img class="benefits-img" src="/STP-12935/assets/benefit_2-DLVzI7ou.jpg" srcset="/STP-12935/assets/benefit_2-DLVzI7ou.jpg 1x, /STP-12935/assets/benefit_2@2x-CyNEEjFG.jpg 2x" alt="Visually Relaxing" width="80" height="80">
+            </picture>
+                    <div class="benefits-text-wrapper text-wrapper">
                         <p class="benefits-text">Visually Relaxing</p>
                     </div>
                 </li>
                 <li class="benefits-item">
-                    <img class="benefits-img" src="" alt="Short Gameplay Sessions" width="80" height="80">
-                    <div class="benefits-text-wrapper">
+            <picture class="benefit-image-wrapper">
+                <source media="(min-width: 1440px)" srcset="/STP-12935/assets/benefit_3-mob-EcWnOpYo.jpg 1x, /STP-12935/assets/benefit_3-mob@2x-DXmb19cL.jpg 2x">
+                <img class="benefits-img" src="/STP-12935/assets/benefit_3-x0hmzqFS.jpg" srcset="/STP-12935/assets/benefit_3-x0hmzqFS.jpg 1x, /STP-12935/assets/benefit_3@2x-DkoBFLY3.jpg 2x" alt="Short Gameplay Sessions" width="80" height="80">
+            </picture>
+                    <div class="benefits-text-wrapper text-wrapper">
                         <p class="benefits-text">Short Gameplay Sessions</p>
                     </lass=>
                 </li>
                 <li class="benefits-item">
-                    <img class="benefits-img" src="" alt="Consistent Rewards" width="80" height="80">
-                     <div class="benefits-text-wrapper">
+            <picture class="benefit-image-wrapper">
+                <source media="(min-width: 1440px)" srcset="/STP-12935/assets/benefit_4-mob-D0HJ_gwW.jpg 1x, /STP-12935/assets/benefit_4-mob@2x-Dd_1PszV.jpg 2x">
+                <img class="benefits-img" src="/STP-12935/assets/benefit_4-DZwSmhR4.jpg" srcset="/STP-12935/assets/benefit_4-DZwSmhR4.jpg 1x, /STP-12935/assets/benefit_4@2x-C16L2WFS.jpg 2x" alt="Consistent Rewards" width="80" height="80">
+            </picture>
+                     <div class="benefits-text-wrapper text-wrapper">
                         <p class="benefits-text">Consistent Rewards</p>
                     </div>
                 </li>
                 <li class="benefits-item">
-                    <img class="benefits-img" src="" alt="Magical Atmosphere" width="80" height="80">
-                     <div class="benefits-text-wrapper">
+            <picture class="benefit-image-wrapper">
+                <source media="(min-width: 1440px)" srcset="/STP-12935/assets/benefit_5-mob-BCHXM5Vn.jpg 1x, /STP-12935/assets/benefit_5-mob@2x-D81rqUhH.jpg 2x">
+                <img class="benefits-img" src="/STP-12935/assets/benefit_5-Eq4UuG5-.jpg" srcset="/img/benefits/benefit_5@.jpg 1x, /STP-12935/assets/benefit_5@2x-KNt6mGs6.jpg 2x" alt="Magical Atmosphere" width="80" height="80">
+            </picture>
+                     <div class="benefits-text-wrapper text-wrapper">
                         <p class="benefits-text">Magical Atmosphere</p>
                     </div>
                 </li>
@@ -431,7 +447,7 @@
             <use href="/STP-12935/assets/sprite-DkFEqxv7.svg#icon-diamond"></use>
         </svg>
   <h2 class="contact-question">Ready to start your magical puzzle adventure?</h2>
-  <a class="contact-email" href="mailto: info@corepixel.pro"> info@corepixel.pro</a>
+  <a class="contact-email" href="mailto: info@corepixel.pro"> info@corepixel.pro </a>
  </div>
 </contact>
     </main>
