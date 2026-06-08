@@ -1,2 +1,2 @@
 import './js/burgerMenu';
-import './js/swiperPlay';
+import './js/swiper';

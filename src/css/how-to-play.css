@@ -12,7 +12,7 @@
     font-size: 36px;
 }
 
-.swiper-play {
+.swiper{
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -58,20 +58,19 @@
     text-align: center;
 }
 
-.swiper-play picture {  
+.swiper picture {  
     margin-bottom: 25px;
 }
-.swiper-play-pagination {
+.swiper-pagination {
     align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     margin-left: 0;
-    margin-bottom: 30px;
     z-index: 15;
 }
-.swiper-play-pagination .swiper-pagination-bullet{
+.swiper-pagination .swiper-pagination-bullet{
     width: 15px;
     height: 15px;
     opacity: 1;
@@ -103,7 +102,7 @@ font-weight: 500;
 font-size: 32px;
 margin-bottom: 24px;
 }
-.swiper-play{
+.swiper{
      overflow: visible;
         }
 }

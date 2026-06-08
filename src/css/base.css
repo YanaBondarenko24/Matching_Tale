@@ -12,7 +12,6 @@
 
 .hide{
   display: none;
-
 }
 
 html{
@@ -40,5 +39,4 @@ body[data-menu="open"] .mobile-menu {
 main{
   background:
   linear-gradient(180deg, #770e9d 0%, rgba(187, 19, 123, 0.97) 34.13%, rgba(32, 89, 189, 0.98) 62.02%, #bf31f2 100%);
-
 }

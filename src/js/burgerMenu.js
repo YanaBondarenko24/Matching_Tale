@@ -12,7 +12,6 @@ function handleClick(e) {
   if (e.target.closest('[data-item]')) {
     closeMenu();
   }
-  
 }
 
 function openMenu (e){

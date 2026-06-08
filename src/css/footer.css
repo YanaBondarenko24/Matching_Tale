@@ -1,17 +1,13 @@
 .footer {
-  width: 100%;
-  margin: 0 auto;
   background: linear-gradient(
     90deg,
     #b52cff 0%,
     #d64dff 50%,
     #b52cff 100%
   );
-
 }
 
 .footer-container {
-  min-width: 328px;
   display: flex;
   flex-direction: column;
   align-items: center;

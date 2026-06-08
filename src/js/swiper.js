@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-const swiper = new Swiper('#swiper-play', {
+const swiper = new Swiper('#swiper', {
   modules: [Pagination, Keyboard],
   slidesPerView: 1,
     spaceBetween: 25,
@@ -16,7 +16,7 @@ const swiper = new Swiper('#swiper-play', {
       }
   },
   pagination: {
-    el: "#swiper-play-pagination",
+    el: "#swiper-pagination",
     clickable: true,
     type: 'bullets',
     bulletActiveClass: 'swiper-pagination-bullet-active',

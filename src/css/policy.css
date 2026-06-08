@@ -7,17 +7,16 @@ body {
 main {
   flex-grow: 1;
 }
-
+.policy-body{
+  background: linear-gradient(180deg,
+        #770e9d 0%,
+        rgba(187, 19, 123, 0.97) 34.13%,
+        rgba(32, 89, 189, 0.98) 62.02%,
+        #bf31f2 100%);
+}
 .policy-container {
   margin: 0 auto;
   padding: 20px 16px 40px;
-  background: linear-gradient(
-    180deg,
-    #770e9d 0%,
-    rgba(187, 19, 123, 0.97) 34.13%,
-    rgba(32, 89, 189, 0.98) 62.02%,
-    #bf31f2 100%
-  );
 }
 
 .main-page-btn {
@@ -63,7 +62,6 @@ main {
   margin: 32px 0 16px;
   font-size: 24px;
   font-weight: 700;
-  color: #fff;
 }
 
 .policy-content p {
@@ -72,22 +70,18 @@ main {
   line-height: 1.4;
 }
 
-.policy-body .footer {
-  background: #913faf;
-  height: 75px;
-}
 .policy-body .footer-container {
-  padding: 0px 23px 3px 24px;
+  padding: 5px 23px 5px 24px;
+  background-color: #913faf;
+  height: 100%;
 }
 @media screen and (min-width: 1440px) {
   .policy-container {
-    max-width: 1440px;
     padding: 40px 80px;
   }
 
   .policy-content {
     max-width: 1241px;
-    margin: 0 auto;
 
   }
 
@@ -103,6 +97,10 @@ main {
   }
   .policy-body .footer-container {
     padding: 26px 184px;
-    height: 29px;
+   
   }
+}
+ .bg-none .footer{
+  background: none;
+  background-color: #913faf;
 }
