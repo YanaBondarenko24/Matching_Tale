@@ -12,7 +12,7 @@ const swiper = new Swiper('#swiper', {
         1439: {
             enabled: false,
              slidesPerView: 5,
-          spaceBetween: 25,
+             spaceBetween: 25,
       }
   },
   pagination: {
@@ -23,6 +23,6 @@ const swiper = new Swiper('#swiper', {
     }, 
   keyboard: {
     enabled: true,
- },
+  },
 
 })

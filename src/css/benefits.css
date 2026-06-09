@@ -1,5 +1,6 @@
 .benefits {
-    background-color: #2059BDFB; 
+    background-color: #2059BDFB;
+     
 }
 
 .benefits-container {
@@ -11,7 +12,7 @@
 .benefits-title {
     color: #d9d9d9;
     font-style: 36px;
-    margin-bottom: 23px;
+    margin-bottom: 32px;
 }
 
 .benefits-list {

@@ -17,11 +17,7 @@
 
 .footer-link,
 .footer-copy {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
   font-size: 16px;
-  color: #fff;
-  text-decoration: none;
 }
 
 .footer-link:hover,
@@ -31,10 +27,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-   .footer {
-    max-width: 1440px;
-  }
-
   .footer-container {
     max-width: 1440px;
     display: flex;

@@ -18,6 +18,8 @@ const swiper = new Swiper('.swiper-play', {
   pagination: {
     el: ".swiper-play-pagination",
     clickable: true,
+            dynamicBullets: true,
+        dynamicMainBullets: 3,
     type: 'bullets',
     bulletActiveClass: 'swiper-pagination-bullet-active',
     },
