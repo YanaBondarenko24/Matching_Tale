@@ -12,9 +12,11 @@
   margin-bottom: 32px;
 }
 .gallery-img{
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
-
+.gallery-swiper-wrapper .swiper-slide{
+  margin-bottom: 48px;
+}
 /* Desktop */
 
 @media screen and (min-width: 1440px) {

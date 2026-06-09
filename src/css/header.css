@@ -14,6 +14,9 @@
 .header-list {
 display: none;
 }
+.header-link{
+  padding: 5px 5px;
+}
 .header-item:hover,
 .header-item:focus{
   color: #8C1090;
@@ -50,7 +53,7 @@ display: none;
   }
     .header-list {
       display: flex;
-      gap: 36px
+      gap: 30px
     }
     .burger-btn{
       display: none;

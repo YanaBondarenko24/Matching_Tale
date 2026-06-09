@@ -6,8 +6,8 @@ import 'swiper/css/pagination';
 
 const swiper = new Swiper('#swiper', {
   modules: [Pagination, Keyboard],
-  slidesPerView: 1,
-    spaceBetween: 25,
+  slidesPerView: 'auto',
+  spaceBetween: 50,
     breakpoints: {
         1439: {
             enabled: false,

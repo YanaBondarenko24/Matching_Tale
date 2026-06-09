@@ -22,8 +22,8 @@
 
 .footer-link:hover,
 .footer-link:focus {
-  opacity: 0.8;
-  color: #8c1090;
+color: #8C1090;
+  animation: scale 200ms ease-in-out infinite alternate;
 }
 
 @media screen and (min-width: 1440px) {

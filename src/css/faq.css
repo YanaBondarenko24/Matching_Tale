@@ -2,57 +2,62 @@
   background-color: #5441a3;
 }
 
-.review-container{
+.reviews-container{
  position: relative;
-  text-align: center;
-  width: 254px;
 }
 .reviews-title {
-  margin-bottom: 32px;
-
 font-size: 36px;
 text-align: center;
+margin-bottom: 28px;
  }
-
-.review-swiper-slide {
- border: 0.50px solid #fff;
-border-radius: 24px;
-width: 254px;
-height: 143px;
-background-color: #ebe0ff;
-padding: 19px 0 29px 12px;
+.swiper-wrapper.swiper-reviews-wrapper{
+  padding-left: 50px;
+}
+.swiper-slide.reviews-swiper-slide {
+  width: 254px;
+  height: 153px;
+  border: 0.50px solid #fff;
+  border-radius: 24px;
+  background-color: #ebe0ff;
+  padding: 19px 0 29px 12px;
+      display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-bottom: 58px;        
 }
 
-.review-header {
+
+.reviews-header {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 25px;
   margin-bottom: 8px;
-  max-width: 146px;
-
 }
 
 .user-icon {
   fill : #8040dc;
 }
 
-.review-name {
+.reviews-name {
   font-size: 14px;
   color: #555;
 }
 
-.review-stars {
+.reviews-stars {
+  padding-left: 53px;
   margin-bottom: 10px;
 }
 
-.review-stars svg {
+.reviews-stars svg {
   fill: #ffc700;
 }
 
-.review-text {
+.reviews-text {
 font-size: 16px;
 line-height: 1.5;
 color: rgba(0, 0, 0, 0.7);
+margin-bottom: 20px;
 }
 
 
@@ -60,18 +65,25 @@ color: rgba(0, 0, 0, 0.7);
   .reviews-title {
     margin-bottom: 45px;
   }
+    .swiper-slide.reviews-swiper-slide {
+      min-width: 254px;
+    }
   .reviews-swiper .swiper-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    transform: none !important;
+  padding-left: 0;
+  justify-content: center;
   }
 
   .reviews-swiper .swiper-slide {
-    width: auto !important;
+   margin-right: 10px !important;
+   margin-bottom: 0;
   }
-
-  .swiper-pagination {
-    display: none;
+  .reviews-header{
+    margin-bottom: 0;
+  }
+  .reviews-stars{
+    margin-bottom: 0;
+  }
+  .reviews-text{
+    margin-bottom: 0;
   }
 }
