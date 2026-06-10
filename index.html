@@ -24,12 +24,12 @@
     <script type="module" crossorigin src="/STP-12935/index.js"></script>
     <link rel="modulepreload" crossorigin href="/STP-12935/assets/vendor-CLkGTgp1.js">
     <link rel="stylesheet" crossorigin href="/STP-12935/assets/vendor-CCK7RXJZ.css">
-    <link rel="stylesheet" crossorigin href="/STP-12935/assets/styles-Ci2eXmQW.css">
+    <link rel="stylesheet" crossorigin href="/STP-12935/assets/styles-VWwtD02U.css">
   </head>
   <body data-menu="close">
     <header class="header">
   <div class="header-container container">
-    <a class="logo-link" href="./index.html" class="logo-wrapper">
+    <a class="logo-link" href="./index.html" class="logo-wrapper" aria-label="Main page">
       <picture >
         <source media="(min-width: 1440px)"
         srcset="/STP-12935/assets/logo-desk-BZVaT9ml.png 1x, /STP-12935/assets/logo-desk@2x-1HaQnyac.png 2x">
@@ -41,19 +41,19 @@
  <nav class="header-nav ">
   <ul class="header-list">
     <li class="header-item">
-      <a class="header-link" href="#about">About</a>
+      <a class="header-link" href="#about" aria-label="About page">About</a>
     </li>
     <li class="header-item">
-      <a class="header-link" href="#how-to-play">How to play</a>
+      <a class="header-link" href="#how-to-play" aria-label="How to play page">How to play</a>
     </li>
     <li class="header-item">
-      <a class="header-link" href="#gallery">Gallery</a>
+      <a class="header-link" href="#gallery" aria-label="Gallery page">Gallery</a>
     </li>
     <li class="header-item">
-      <a class="header-link" href="#reviews">Reviews</a>
+      <a class="header-link" href="#reviews" aria-label="Reviews page">Reviews</a>
     </li>
     <li class="header-item">
-      <a class="header-link" href="#contact">Contact</a>
+      <a class="header-link" href="#contact" aria-label="Contact page">Contact</a>
     </li>
   </ul>
  </nav>
@@ -75,10 +75,9 @@
             Reveal Mysteries</h1>
             <p class="hero-text">Relaxing puzzle adventures
             in a world of fantasy</p>
-            <a href="https://play.google.com/store/apps/details?id=com.messworks.matching.tale.mystery.blast.game&hl=en&gl=us" target="_blank" rel="noopener noreferrer">
+            <a href="https://play.google.com/store/apps/details?id=com.messworks.matching.tale.mystery.blast.game&hl=en&gl=us" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play">
                 <picture>
                     <source media="(min-width: 1440px)" srcset="/STP-12935/assets/google-C8PlxRVq.png 1x, /STP-12935/assets/google@2x--N6gcXK-.png 2x">
-                    
                     <img class="google-img" src="/STP-12935/assets/google-mob-Dt9EXHlK.png" 
                     srcset="/STP-12935/assets/google-mob-Dt9EXHlK.png 1x, /STP-12935/assets/google-mob@2x-C8vQa99G.png 2x" alt="Get it on Google Play" width="166" height="58">
                 </picture>
@@ -114,7 +113,7 @@
             <use href="/STP-12935/assets/sprite-B-9N1Sg3.svg#icon-diamond"></use>
         </svg>
             <h2 class="play-title">How to play</h2>
-            <div class="swiper" id="swiper">
+            <div class="swiper" id="swiper-play">
                 <ul class="swiper-wrapper swiper-play-wrapper">
                     <li class="swiper-slide swiper-play-slide">
                 <span class="play-number">1</span>
@@ -153,7 +152,7 @@
                         </div>
                     </li>
                 </ul>
-                <div class="swiper-pagination" id="swiper-pagination"></div>
+                <div class="swiper-pagination" id="swiper-play-pagination"></div>
             </div>
     </div>
 </section>
@@ -452,16 +451,16 @@
             <use href="/STP-12935/assets/sprite-B-9N1Sg3.svg#icon-diamond"></use>
         </svg>
   <h2 class="contact-question">Ready to start your magical puzzle adventure?</h2>
-  <a class="contact-email" href="mailto:info@corepixel.pro">info@corepixel.pro</a>
+  <a class="contact-email" href="mailto:info@corepixel.pro" aria-label="Contact email">info@corepixel.pro</a>
  </div>
 </contact>
     </main>
 
     <footer class="footer">
   <div class="container footer-container">
-    <a href="./policy.html" class="footer-link">Privacy Policy</a>
+    <a href="./policy.html" class="footer-link" aria-label="Privacy Policy">Privacy Policy</a>
 
-    <a href="./terms.html" class="footer-link">Terms of Service</a>
+    <a href="./terms.html" class="footer-link" aria-label="Terms of Service">Terms of Service</a>
 
     <p class="footer-copy">
       © 2026 corepixel.pro — All rights reserved.
@@ -471,7 +470,7 @@
 
 
     <div class="mobile-menu" data-visible="close">
-    <button class="close-menu-btn" data-action="close">
+    <button class="close-menu-btn" data-action="close" aria-label="Close mobile menu">
         <svg class="menu-icon" width="14" height="14">
             <use href="/STP-12935/assets/sprite-B-9N1Sg3.svg#icon-close-btn"></use>
         </svg>
@@ -479,19 +478,19 @@
     <nav class="menu-nav">
         <ul class="menu-list" data-list>
             <li class="menu-item" data-item>
-                <a class="menu-link" href="#about">About</a>
+                <a class="menu-link" href="#about" aria-label="About page">About</a>
             </li>
             <li class="menu-item" data-item>
-                <a class="menu-link" href="#how-to-play">How to play</a>
+                <a class="menu-link" href="#how-to-play" aria-label="How to play page">How to play</a>
             </li>
             <li class="menu-item" data-item>
-                <a class="menu-link" href="#gallery">Gallery</a>
+                <a class="menu-link" href="#gallery" aria-label="Gallery page">Gallery</a>
             </li>
             <li class="menu-item" data-item>
-                <a class="menu-link" href="#reviews">Reviews</a>
+                <a class="menu-link" href="#reviews" aria-label="Reviews page">Reviews</a>
             </li>
             <li class="menu-item" data-item>
-                <a class="menu-link" href="#contact">Contact</a>
+                <a class="menu-link" href="#contact" aria-label="Contact page">Contact</a>
             </li>
         </ul>
     </nav>
