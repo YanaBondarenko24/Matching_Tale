@@ -17,6 +17,13 @@
 .gallery-swiper-wrapper .swiper-slide{
   margin-bottom: 48px;
 }
+.swiper-gallery-pagination{
+  gap: 5px;
+}
+.swiper-gallery-pagination .swiper-pagination-bullet {
+width: 10px;
+height: 10px;
+}
 /* Desktop */
 
 @media screen and (min-width: 1440px) {
