@@ -1,42 +1,44 @@
-.reviews {
-  background-color: #5441a3;
+
+.reviews-container {
+  position: relative;
+  text-align: center;
 }
 
-.reviews-container{
- position: relative;
-}
 .reviews-title {
-font-size: 36px;
-text-align: center;
-margin-bottom: 28px;
- }
-.swiper-wrapper.swiper-reviews-wrapper{
-  padding-left: 50px;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 28px;
 }
+
+.reviews-swiper {
+  overflow: hidden;
+  width: 100%;
+}
+
+
 .swiper-slide.reviews-swiper-slide {
-  width: 254px;
-  height: 153px;
-  border: 0.50px solid #fff;
+  max-width: 254px;
+  max-height: 153px;
+  box-sizing: border-box;
+  border: 0.5px solid #fff;
   border-radius: 24px;
   background-color: #ebe0ff;
-  padding: 19px 0 29px 12px;
-      display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: start;
-        margin-bottom: 58px;        
+  padding: 19px 12px 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-bottom: 58px;
 }
-
 
 .reviews-header {
   display: flex;
   align-items: center;
   gap: 25px;
-  margin-bottom: 8px;
 }
 
 .user-icon {
-  fill : #8040dc;
+  fill: #8040dc;
 }
 
 .reviews-name {
@@ -54,36 +56,37 @@ margin-bottom: 28px;
 }
 
 .reviews-text {
-font-size: 16px;
-line-height: 1.5;
-color: rgba(0, 0, 0, 0.7);
-margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0;
+  text-align: left;
 }
 
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
   .reviews-title {
+    font-size: 48px;
     margin-bottom: 45px;
   }
-    .swiper-slide.reviews-swiper-slide {
-      min-width: 254px;
-    }
-  .reviews-swiper .swiper-wrapper {
-  padding-left: 0;
-  justify-content: center;
+
+  .reviews-swiper {
+    overflow: visible;
   }
 
-  .reviews-swiper .swiper-slide {
-   margin-right: 10px !important;
-   margin-bottom: 0;
+  .swiper-reviews-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding-left: 0;
   }
-  .reviews-header{
+
+  .swiper-slide.reviews-swiper-slide {
+    margin-right: 0 !important;
     margin-bottom: 0;
   }
-  .reviews-stars{
-    margin-bottom: 0;
-  }
-  .reviews-text{
-    margin-bottom: 0;
+
+  #swiper-reviews-pagination {
+    display: none;
   }
 }

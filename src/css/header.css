@@ -27,6 +27,7 @@ display: none;
   color: #5441A3;
   animation: scale 200ms ease-in-out infinite alternate;
 }
+
 .burger-icon{
  fill: currentColor;
 }

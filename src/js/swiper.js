@@ -4,12 +4,12 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-const swiper = new Swiper('#swiper', {
+new Swiper('#swiper', {
   modules: [Pagination, Keyboard],
-  slidesPerView: 'auto',
-  spaceBetween: 50,
+  slidesPerView: 1,
+  spaceBetween: 25,
     breakpoints: {
-        1439: {
+        1440: {
             enabled: false,
              slidesPerView: 5,
              spaceBetween: 25,
@@ -26,3 +26,49 @@ const swiper = new Swiper('#swiper', {
   },
 
 })
+new Swiper('#swiper-gallery', {
+  modules: [Pagination, Keyboard],
+  slidesPerView: 1,
+  spaceBetween: 25,
+    breakpoints: {
+        1440: {
+            enabled: false,
+             slidesPerView: 5,
+             spaceBetween: 25,
+      }
+  },
+  pagination: {
+    el: "#swiper-gallery-pagination",
+    clickable: true,
+    type: 'bullets',
+    bulletActiveClass: 'swiper-pagination-bullet-active',
+    }, 
+  keyboard: {
+    enabled: true,
+  },
+
+})
+
+new Swiper('#swiper-reviews', {
+  modules: [Pagination, Keyboard],
+  slidesPerView: 'auto',
+  spaceBetween: 50,
+  centeredSlides: true,
+  breakpoints: {
+    1440: {
+      enabled: false,
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+  },
+  pagination: {
+    el: '#swiper-reviews-pagination',
+    clickable: true,
+    type: 'bullets',
+    bulletActiveClass: 'swiper-pagination-bullet-active',
+  },
+  keyboard: {
+    enabled: true,
+  },
+});
+
