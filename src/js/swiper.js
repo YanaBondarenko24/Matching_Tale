@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-new Swiper('#swiper', {
+new Swiper('#swiper-play', {
   modules: [Pagination, Keyboard],
   slidesPerView: 1,
   spaceBetween: 25,
@@ -16,7 +16,7 @@ new Swiper('#swiper', {
       }
   },
   pagination: {
-    el: "#swiper-pagination",
+    el: "#swiper-play-pagination",
     clickable: true,
     type: 'bullets',
     bulletActiveClass: 'swiper-pagination-bullet-active',
@@ -33,8 +33,8 @@ new Swiper('#swiper-gallery', {
     breakpoints: {
         1440: {
             enabled: false,
-             slidesPerView: 5,
-             spaceBetween: 25,
+             slidesPerView: 6,
+        spaceBetween: 10,    
       }
   },
   pagination: {

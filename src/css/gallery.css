@@ -12,7 +12,7 @@
   margin-bottom: 32px;
 }
 .gallery-img{
-  margin: 0 auto 10px;
+  margin: 0 auto;
 }
 .gallery-swiper-wrapper .swiper-slide{
   margin-bottom: 48px;
@@ -25,12 +25,14 @@
     margin-bottom: 45px;
     }
  .gallery-swiper-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
   }
-  .gallery-swiper-wrapper .swiper-slide{
-  margin-right: 0 !important;
-  }
-
+.gallery-img {
+  min-width: 245px;
+}
+.swiper-gallery-pagination {
+  display: none;
+}
 }

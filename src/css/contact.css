@@ -21,6 +21,15 @@ font-weight: 300;
 font-size: 16px;
 text-align: center;
 }
+.contact-email:hover,
+.contact-email:focus{
+  color: #8C1090;
+  animation: scale 200ms ease-in-out infinite alternate;
+}
+.contact-email:active {
+  color: #5441A3;
+  animation: scale 200ms ease-in-out infinite alternate;
+}
 
 @media screen and (min-width: 1440px){
 .contact-container {

@@ -41,10 +41,13 @@ main {
   font-size: 20px;
 }
 .main-page-btn:hover,
-.main-page-btn:focus{
-   opacity: 0.8;
-  color: #8c1090;
+.main-page-btn:focus,
+.main-page-btn:active{
+color: #fff;
+border-color: #fff;
+animation: scale 200ms ease-in-out infinite alternate;
 }
+
 .policy-title {
   margin-bottom: 20px;
   text-align: center;
