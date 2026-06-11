@@ -26,6 +26,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   color: var(--color);
+  margin: 0;
 }
 
 body[data-menu="open"]{
@@ -40,3 +41,11 @@ main{
   background:
   linear-gradient(180deg, #770e9d 0%, rgba(187, 19, 123, 0.97) 34.13%, rgba(32, 89, 189, 0.98) 62.02%, #bf31f2 100%);
 }
+ section{
+  scroll-margin-top: 70px;
+ }
+ @media only screen and (min-width: 1440px) {
+section {
+    scroll-margin-top: 100px;
+  }
+ }

@@ -1,7 +1,4 @@
-.benefits {
-    background-color: #2059BDFB;
-     
-}
+
 
 .benefits-container {
     position: relative;
@@ -39,7 +36,7 @@ display: flex;
 
 .benefits-text-wrapper {
     width: 164px;
-    min-height: 43px;
+    min-height: 66px;
     height: auto;
     padding: 7px 0;
 }

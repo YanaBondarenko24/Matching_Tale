@@ -1,22 +1,23 @@
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
- 
-}
 
-main {
-  flex-grow: 1;
-}
-.policy-body{
+.policy{
+  width: 100%;
+  min-height: calc(100vh - 110px);
   background: linear-gradient(180deg,
         #770e9d 0%,
         rgba(187, 19, 123, 0.97) 34.13%,
         rgba(32, 89, 189, 0.98) 62.02%,
         #bf31f2 100%);
 }
+.policy-body {
+  width: 100%;
+  margin: 0;
+}
+
+.policy-body main {
+  width: 100%;
+  min-height: auto;
+}
 .policy-container {
-  margin: 0 auto;
   padding: 20px 16px 40px;
 }
 
@@ -24,20 +25,14 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  gap: 10px;
 
   border: 1px solid #fff;
   border-radius: 12px;
-  padding: 10px;
   max-width: 126px;
   height: 44px;
 
   margin-left: auto;
   margin-bottom: 40px;
-
-  color: #fff;
-  text-decoration: none;
   font-size: 20px;
 }
 .main-page-btn:hover,
@@ -47,64 +42,58 @@ color: #fff;
 border-color: #fff;
 animation: scale 200ms ease-in-out infinite alternate;
 }
-
-.policy-title {
-  margin-bottom: 20px;
+ 
+  .policy-title {
   text-align: center;
-  color: #fff;
+  margin: 32px 0 16px;
   font-size: 36px;
-  font-weight: 400;
-  line-height: 0.97;
+  line-height: 1;
   margin-bottom: 30px;
 }
-
+    .policy-content h2 {
+      margin-top: 32px;
+      text-transform: uppercase;
+      font-size: 24px;
+    }
 .policy-content {
-  color: #fff;
-}
-
-.policy-content h2 {
-  margin: 32px 0 16px;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.policy-content p {
   margin-bottom: 16px;
-  font-size: 24px;
-  line-height: 1.4;
+  line-height: 1.25;
 }
 
-.policy-body .footer-container {
-  padding: 5px 23px 5px 24px;
+.policy-body .footer {
+  background: none;
   background-color: #913faf;
-  height: 100%;
 }
+.policy-email{
+  text-decoration: underline;
+  font-size: 20px;
+}
+
 @media screen and (min-width: 1440px) {
   .policy-container {
     padding: 40px 80px;
+    width: 865px;
   }
 
   .policy-content {
-    max-width: 1241px;
+    width: 900px;
 
   }
-
+  
   .policy-title{
     margin-bottom: 55px;
      font-size: 48px;
      text-align: left;
      margin-top: 79px;
   }
-
+ 
   .policy-body .footer {
     height: 81px;
+    bottom: 0px;
+
   }
   .policy-body .footer-container {
     padding: 26px 184px;
    
   }
-}
- .bg-none .footer{
-  background: none;
-  background-color: #913faf;
 }
