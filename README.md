@@ -1,6 +1,6 @@
 # Matching Tale
 
-Landing page for the mobile puzzle game **Matching Tale** for company Evoplay.
+Landing page for the mobile puzzle game **Matching Tale** for company **Evoplay**.
 
 ## Live Demo
 
